@@ -38,7 +38,7 @@ activities = {
         "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
         "max_participants": 30,
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
-    }
+    },
     "Basketball Club": {
         "description": "Practice basketball skills and teamwork",
         "schedule": "Monday, 4:00 PM - 5:30 PM",
@@ -46,8 +46,6 @@ activities = {
         "participants": []
     },
 }
-
-
 @app.get("/")
 def root():
     return RedirectResponse(url="/static/index.html")
