@@ -70,8 +70,35 @@ section h3 {
   color: #0066cc;
 }
 
-.activity-card p {
+..activity-card p {
   margin-bottom: 8px;
+}
+
+.participant-list {
+  list-style: disc inside;
+  margin: 8px 0 0 0;
+  padding-left: 18px;
+}
+
+.participant-list li {
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.unregister-button {
+  background: transparent;
+  border: 1px solid #c62828;
+  color: #c62828;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.unregister-button:hover {
+  background-color: #ffebee;
 }
 
 .form-group {
